@@ -6,35 +6,57 @@
 
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	color: #121212;
-	background-color: #f8f9f6;
+	color: #2A306D;
+	background-color: #FFF6ED;
 }
 
 /* Typography styles */
 
 .display-1 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Quicksand Bold', sans-serif;
 	font-weight: 700;
 	vertical-align: middle;
+	color: #2A306D;
 
 }
+h1 {
+	font-family:'Olivita', sans-serif;
+	font-weight: 700;
+	color: #EF8139;
+	text-align: right;
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	text-align: right;
+	color: #2A306D;
+}
 
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	text-align: center;
+	color: #818090;
+}
 .link { 
-	color: #000000; 
+	color: #2A306D; 
 } 
 
 .link:hover { 
-	color: #ADA084;
+	color: #EF8139;
 } 
 blockquote {
 	font-size: 2em;
-	font-family: "Roboto", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	font-weight: 300;
-	font-style: italic;
+	font-style: bold;
 	text-align: center;
-	border: 1px solid black;
+	border: 10px;
+	border-color: #88CB9C;
 	margin: 40px 40px 40px 40px;
 	padding: 50px;
 	width: 850px;
@@ -47,11 +69,9 @@ blockquote {
 .logo {
 	max-height: 40px;
 }
-body, html {
-    height: 100%;
-}
+
 a:hover {
- color: #ADA084;
+ color: #EF8139;
 }
 /* The hero image */
 .hero-image {
@@ -66,12 +86,12 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-	margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: left;
+  text-align: right;
   position: absolute;
   top: 50%;
   left: 17%;
@@ -83,9 +103,6 @@ a:hover {
 
 .footer-basic {
   padding: 40px 0;
-  border-top-color: #000000;
-	border-top-style: solid;
-	border-top-width: 1px;
 }
 
 .footer-basic ul {
@@ -102,13 +119,13 @@ a:hover {
 }
 
 .footer-basic ul a {
-  color: #000000;
+  color: #2A306D;
   text-decoration: none;
   opacity: 1;
 }
 
 .footer-basic ul a:hover {
-  color: #ADA084;
+  color: #EF8139;
 }
 
 .footer-basic .social {
@@ -124,22 +141,22 @@ a:hover {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #000000;
+  border: 2px solid #2A306D;
   margin: 0 8px;
-  color: #000000;
+  color: #2A306D;
   opacity: 1;
 }
 
 .footer-basic .social a:hover {
- color: #ADA084;
-	 border: 2px solid #ADA084;
+ color: #EF8139;
+	 border: 2px solid #EF8139;
 }
 
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #000000;
+  color: #2A306D;
   margin-bottom: 0;
 }
 
@@ -236,12 +253,21 @@ img.p-bottom {
 /* nav bar customization */
 
 .bg-dark {
-	background-color: #f8f9f6 !important;
-	border-bottom-color: #000000;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	background-color: #FFF6ED !important;
+    font-family: "Hoss Round", sans-serif;
+	font-style: italic;
+	height: 100%;
+	text-align: right;
+	justify-content: right;
+	color: #2A306D;
 
 }
+.wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #88CB9C;
+}
+
 
 
 .projets-page .item:hover img:hover {

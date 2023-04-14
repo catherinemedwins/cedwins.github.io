@@ -2459,38 +2459,38 @@ textarea.form-control-lg {
   opacity: .65
 }
 .btn-primary {
-  color: #fff;
-  background-color: #000000;
+  color: #FFF6ED;
+  background-color: #2A306D;
 
 }
 .btn-primary:hover {
   color: #000000;
-  background-color: #ADA084;
+  background-color: #EF8139;
  
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #000000;
+  color: #FFF6ED;
+  background-color: #88CB9C;
   box-shadow: 0 0 0 .25rem rgba(50, 174, 255, .5)
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #FFF6ED;
   background-color: #ADA084;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 .25rem rgba(50, 174, 255, .5)
 }
 .btn-primary:disabled, .btn-primary.disabled {
-  color: #fff;
+  color: #FFF6ED;
   background-color: #000000;
 }
 .btn-secondary {
-  color: #000000;
-  background-color: #ADA084;
+  color: #FFF6ED;
+  background-color: #EF8139;
 }
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #000000;
+  color: #FFF6ED;
+  background-color: #2A306D;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
@@ -3281,7 +3281,7 @@ textarea.form-control-lg {
   border-color: transparent
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: ;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff
 }
@@ -3715,17 +3715,18 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, .9)
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, .55)
+  color: #2A306D;
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, .7);
+  color: #EF8139;
   background-color: inherit;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, .3)
 }
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, .9)
+  color: #2A306D;
+	
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, .55);
@@ -4021,11 +4022,11 @@ textarea.form-control-lg {
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: .5rem;
-  color: #6c757d;
+  color: #2A306D;
   content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */
 }
 .breadcrumb-item.active {
-  color: #6c757d
+  color: #ef8139;
 }
 .pagination {
   display: flex;
